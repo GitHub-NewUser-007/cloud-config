@@ -18,4 +18,4 @@ hystrix:
           thread:
             timeoutInMilliseconds: 4000 #断路器超时时间，默认1000ms
 member:
-  userName: abc
+  userName: a-b-c-d-e-f-g
