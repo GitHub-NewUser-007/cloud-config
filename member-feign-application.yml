@@ -17,5 +17,14 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 4000 #断路器超时时间，默认1000ms
+management:
+  endpoints:
+    web:
+      base-path: /actuator
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
 member:
-  userName: a-b-c-d-e-f-g
+  userName: abc
